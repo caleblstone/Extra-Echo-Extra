@@ -1,0 +1,45 @@
+title: Echo Extra Echo
+description: An artist-run popup gallery on the Upper West Side of New York, organized by Hyunjee Nicole Kim and Joseph Issac Cohen.
+url: ""
+baseurl: ""
+lang: en
+logo: /logo.png
+image: /logo.png
+author:
+  name: Echo Extra Echo
+  email: echo.extra.echo@gmail.com
+
+permalink: /:collection/:slug/
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+collections:
+  images:
+    output: true
+    permalink: /images/:slug/
+  texts:
+    output: true
+    permalink: /text/:slug/
+
+defaults:
+  - scope:
+      path: ""
+      type: images
+    values:
+      layout: image
+  - scope:
+      path: ""
+      type: texts
+    values:
+      layout: text
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - netlify.toml
+  - node_modules
+  - vendor

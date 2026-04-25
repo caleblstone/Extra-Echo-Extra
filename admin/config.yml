@@ -1,0 +1,65 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+site_url: https://echo-extra-echo.netlify.app
+display_url: https://echo-extra-echo.netlify.app
+
+collections:
+  - name: "images"
+    label: "Images"
+    folder: "_images"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Image", name: "image", widget: "image" }
+      - { label: "Caption", name: "caption", widget: "text", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
+
+  - name: "texts"
+    label: "Text"
+    folder: "_texts"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Author", name: "author", widget: "string", required: false }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "Home (current show)"
+        name: "home"
+        file: "index.html"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Page Title", name: "title", widget: "hidden", default: "" }
+          - { label: "Flyer Image", name: "flyer", widget: "image" }
+          - label: "Current Show"
+            name: "show"
+            widget: "object"
+            fields:
+              - { label: "Show Title", name: "title", widget: "string" }
+              - { label: "Artists", name: "artists", widget: "string" }
+              - { label: "Dates", name: "dates", widget: "string" }
+              - { label: "Hours", name: "hours", widget: "string", required: false }
+              - { label: "Organizer", name: "organizer", widget: "string", required: false }
+              - { label: "Contact", name: "contact", widget: "text", required: false }
+          - { label: "Body", name: "body", widget: "hidden", default: '<img class="flyer" src="{{ page.flyer | relative_url }}" alt="{{ page.show.title }} flyer">' }
+      - label: "About"
+        name: "about"
+        file: "about.md"
+        fields:
+          - { label: "Title", name: "title", widget: "hidden", default: "About" }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/about/" }
+          - { label: "Body", name: "body", widget: "markdown" }

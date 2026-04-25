@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<article class="image-post">
+  {% if page.image %}
+  <figure class="image-figure">
+    <img src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+    <figcaption>
+      {% if page.title %}<span class="caption-title">{{ page.title }}</span>{% endif %}
+      {% if page.caption %}<span class="caption-body">{{ page.caption }}</span>{% endif %}
+      {% if page.date %}<span class="caption-date">{{ page.date | date: "%Y" }}</span>{% endif %}
+    </figcaption>
+  </figure>
+  {% endif %}
+  {{ content }}
+</article>

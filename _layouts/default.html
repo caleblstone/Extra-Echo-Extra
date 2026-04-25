@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  <link rel="icon" href="{{ '/logo.png' | relative_url }}" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  {% feed_meta %}
+</head>
+<body>
+  <div class="site-layout">
+    <header class="site-header">
+      <a class="site-title" href="{{ '/' | relative_url }}">
+        <span class="echo echo-left">Echo</span>
+        <span class="extras" aria-hidden="true"></span>
+        <span class="echo echo-right">Echo</span>
+      </a>
+      <nav class="site-menu">
+        <ul>
+          <li><a href="{{ '/images/' | relative_url }}">Images</a></li>
+          <li><a href="{{ '/text/' | relative_url }}">Text</a></li>
+          <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+        </ul>
+      </nav>
+
+      {% if page.show %}
+      <section class="current-show">
+        {% if page.show.title %}<p class="show-title">{{ page.show.title }}</p>{% endif %}
+        {% if page.show.artists %}<p>{{ page.show.artists }}</p>{% endif %}
+        {% if page.show.dates %}<p>{{ page.show.dates }}</p>{% endif %}
+        {% if page.show.hours %}<p>{{ page.show.hours }}</p>{% endif %}
+        {% if page.show.organizer %}<p>{{ page.show.organizer }}</p>{% endif %}
+        {% if page.show.contact %}<p>{{ page.show.contact }}</p>{% endif %}
+      </section>
+      {% endif %}
+
+      <a class="site-logo" href="{{ '/' | relative_url }}" aria-label="Echo Extra Echo home">
+        <img src="{{ '/logo.png' | relative_url }}" alt="Echo Extra Echo">
+      </a>
+    </header>
+
+    <main class="site-main">
+      {{ content }}
+    </main>
+  </div>
+
+  <script src="{{ '/assets/title.js' | relative_url }}" defer></script>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", function (user) {
+        if (!user) {
+          window.netlifyIdentity.on("login", function () {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+</body>
+</html>
