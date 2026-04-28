@@ -48,11 +48,12 @@ collections:
             name: "show"
             widget: "object"
             fields:
+              - { label: "Presents Line", name: "presents", widget: "string", required: false, default: "Echo Extra Echo presents" }
               - { label: "Show Title", name: "title", widget: "string" }
               - { label: "Artists", name: "artists", widget: "string" }
               - { label: "Dates", name: "dates", widget: "string" }
               - { label: "Hours", name: "hours", widget: "string", required: false }
-              - { label: "Organizer", name: "organizer", widget: "string", required: false }
+              - { label: "Opening", name: "opening", widget: "string", required: false }
               - { label: "Contact", name: "contact", widget: "text", required: false }
           - { label: "Body", name: "body", widget: "hidden", default: '<img class="flyer" src="{{ page.flyer | relative_url }}" alt="{{ page.show.title }} flyer">' }
       - label: "About"
@@ -62,4 +63,5 @@ collections:
           - { label: "Title", name: "title", widget: "hidden", default: "About" }
           - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
           - { label: "Permalink", name: "permalink", widget: "hidden", default: "/about/" }
+          - { label: "Body Class", name: "body_class", widget: "hidden", default: "about-page" }
           - { label: "Body", name: "body", widget: "markdown" }
