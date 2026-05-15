@@ -2,8 +2,7 @@
 layout: default
 title: Text
 permalink: /text/
+left_text: true
+flyer: /poster.jpg
 ---
-{% assign sorted_texts = site.texts | sort: "date" | reverse %}
-{% for t in sorted_texts %}
-<div class="text-body">{{ t.content }}</div>
-{% endfor %}
+<img class="flyer" src="{{ page.flyer | relative_url }}" alt="Flyer">

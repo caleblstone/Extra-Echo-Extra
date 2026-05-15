@@ -27,7 +27,12 @@
         </ul>
       </nav>
 
-      {% if page.show %}
+      {% if page.left_text %}
+      {% assign sorted_texts = site.texts | sort: "date" | reverse %}
+      {% for t in sorted_texts %}
+      <div class="left-text-content">{{ t.content }}</div>
+      {% endfor %}
+      {% elsif page.show %}
       <section class="current-show">
         {% if page.show.presents or page.show.title or page.show.artists %}
         <p>

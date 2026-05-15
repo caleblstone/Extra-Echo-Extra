@@ -12,6 +12,8 @@ author:
 permalink: /:collection/:slug/
 
 markdown: kramdown
+kramdown:
+  hard_wrap: true
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

@@ -219,14 +219,52 @@ a:hover {
   font-style: italic;
 }
 
-.text-index {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.left-text-content {
+  font-size: 0.9em;
+  overflow-wrap: break-word;
 }
 
-.text-index li {
+.left-text-content p {
   margin: 0 0 1em 0;
+}
+
+.left-text-content p:last-child {
+  margin-bottom: 0;
+}
+
+/* Images page — independent column scrolling */
+body.images-page {
+  overflow: hidden;
+}
+
+body.images-page .site-layout {
+  height: 100vh;
+  height: 100dvh;
+  min-height: 0;
+}
+
+body.images-page .site-header {
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+body.images-page .site-header::-webkit-scrollbar {
+  display: none;
+}
+
+body.images-page .site-main {
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+body.images-page .site-main::-webkit-scrollbar {
+  display: none;
+}
+
+.images-scroll {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
 }
 
 .byline {
@@ -311,5 +349,28 @@ a:hover {
 
   .text-body p {
     text-indent: 0;
+  }
+
+  /* Images page on mobile: restore normal scroll, hide exhibition text */
+  body.images-page {
+    overflow: auto;
+  }
+
+  body.images-page .site-layout {
+    height: auto;
+    min-height: 0;
+    overflow: visible;
+  }
+
+  body.images-page .site-header {
+    overflow-y: visible;
+  }
+
+  body.images-page .site-main {
+    overflow-y: visible;
+  }
+
+  body.images-page .left-text-content {
+    display: none;
   }
 }

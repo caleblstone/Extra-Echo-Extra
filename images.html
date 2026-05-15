@@ -2,19 +2,16 @@
 layout: default
 title: Images
 permalink: /images/
+left_text: true
+body_class: images-page
 ---
-<ul class="image-index">
+<div class="images-scroll">
   {% assign sorted_images = site.images | sort: "date" | reverse %}
   {% for img in sorted_images %}
-  <li>
-    <figure>
-      {% if img.image %}<img src="{{ img.image | relative_url }}" alt="{{ img.title }}">{% endif %}
-      <figcaption>
-        {% if img.title %}<span class="caption-title">{{ img.title }}</span>{% endif %}
-        {% if img.caption %}<span class="caption-body">{{ img.caption }}</span>{% endif %}
-        {% if img.date %}<span class="caption-date">{{ img.date | date: "%Y" }}</span>{% endif %}
-      </figcaption>
-    </figure>
-  </li>
+  {% if img.image %}
+  <figure class="image-figure">
+    <img src="{{ img.image | relative_url }}" alt="{{ img.title }}">
+  </figure>
+  {% endif %}
   {% endfor %}
-</ul>
+</div>
