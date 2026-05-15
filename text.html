@@ -3,13 +3,7 @@ layout: default
 title: Text
 permalink: /text/
 ---
-<ul class="text-index">
-  {% assign sorted_texts = site.texts | sort: "date" | reverse %}
-  {% for t in sorted_texts %}
-  <li>
-    <a href="{{ t.url | relative_url }}">{{ t.title }}</a>
-    {% if t.author %} — {{ t.author }}{% endif %}
-    {% if t.date %} ({{ t.date | date: "%Y" }}){% endif %}
-  </li>
-  {% endfor %}
-</ul>
+{% assign sorted_texts = site.texts | sort: "date" | reverse %}
+{% for t in sorted_texts %}
+<div class="text-body">{{ t.content }}</div>
+{% endfor %}
