@@ -6,7 +6,7 @@ left_text: true
 body_class: images-page
 ---
 <div class="images-scroll">
-  {% assign sorted_images = site.images | sort: "date" | reverse %}
+  {% assign sorted_images = site.images | sort: "order" %}
   {% for img in sorted_images %}
   {% if img.image %}
   <figure class="image-figure">
