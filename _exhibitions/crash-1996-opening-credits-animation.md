@@ -1,6 +1,6 @@
 ---
 title: Crash (1996) Opening Credits Animation
-slug: crash
+slug: crash-1996-opening-credits.md
 order: 1
 date: 2026-08-09T14:46:00.000-04:00
 presents: Echo Extra Echo presents
