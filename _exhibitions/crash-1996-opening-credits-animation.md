@@ -8,7 +8,7 @@ artists: Collin Leitch
 dates: August 16–30, 2026
 hours: Sunset to sunrise every night
 opening: Opening Sunday, August 16, 7pm
-contact: >+
+contact: >
   To visit us on the Upper West Side or to get in touch, please email
   echo.extra.echo @ gmail.com
 
@@ -16,18 +16,6 @@ contact: >+
   Checklist (TK)
 
 
-  May 16–June 14, 2026
-
-  1–6pm on Saturdays & Sundays
-
-  Opening Saturday, May 16, 1pm
-
-
-  May 16–June 14, 2026
-
-  1–6pm on Saturdays & Sundays
-
-  Opening Saturday, May 16, 1pm
-
+  <br> <a href="">Checklist (TK)</a>
 flyer: /assets/uploads/crash-1996-opening-credits-animation-still03.jpg
 ---
