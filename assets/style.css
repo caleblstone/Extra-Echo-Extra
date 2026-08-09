@@ -356,14 +356,22 @@ body.images-page .site-main::-webkit-scrollbar {
     margin: 0 auto;
   }
 
+  .about-page .site-layout {
+    grid-template-rows: auto 1fr auto;
+  }
+
   .about-page .site-main {
     align-items: stretch;
-    justify-content: flex-start;
+    justify-content: flex-end;
   }
 
   .about-page .site-main p {
     width: 100%;
     text-align: left;
+  }
+
+  .exhibition-entry {
+    padding-left: 0;
   }
 
   .image-index li {
