@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
+{% assign ex = site.exhibitions | where: "slug", page.exhibition_slug | first %}
 <div class="images-scroll">
-  {% assign ex_images = site.images | where: "exhibition", page.exhibition_slug | sort: "order" %}
-  {% for img in ex_images %}
+  {% for img in ex.images %}
   {% if img.image %}
   <figure class="image-figure">
-    <img src="{{ img.image | relative_url }}" alt="{{ img.title }}">
+    <img src="{{ img.image | relative_url }}" alt="{{ img.caption }}">
     {% if img.caption %}
     <figcaption><span class="caption-body">{{ img.caption }}</span></figcaption>
     {% endif %}

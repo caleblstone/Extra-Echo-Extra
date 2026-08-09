@@ -10,6 +10,32 @@ hours: "1–6pm on Saturdays & Sundays"
 opening: "Opening Saturday, May 16, 1pm"
 contact: "To visit us on the Upper West Side or to get in touch, please email echo.extra.echo @ gmail.com"
 flyer: /poster.jpg
+images:
+  - image: /assets/uploads/evil-rat-1.jpg
+  - image: /assets/uploads/evil-rat-2.jpg
+  - image: /assets/uploads/evil-rat-3.jpg
+  - image: /assets/uploads/evil-rat-4.jpg
+  - image: /assets/uploads/evil-rat-5.jpg
+  - image: /assets/uploads/evil-rat-6.jpg
+  - image: /assets/uploads/evil-rat-7.jpg
+  - image: /assets/uploads/evil-rat-8.jpg
+  - image: /assets/uploads/evil-rat-10.jpg
+  - image: /assets/uploads/evil-rat-11.jpg
+  - image: /assets/uploads/evil-rat-12.jpg
+  - image: /assets/uploads/evil-rat-13.jpg
+  - image: /assets/uploads/evil-rat-14.jpg
+  - image: /assets/uploads/evil-rat-15.jpg
+  - image: /assets/uploads/evil-rat-16.jpg
+  - image: /assets/uploads/evil-rat-17.jpg
+  - image: /assets/uploads/evil-rat-18.jpg
+  - image: /assets/uploads/evil-rat-19.jpg
+  - image: /assets/uploads/evil-rat-20.jpg
+  - image: /assets/uploads/evil-rat-21.jpg
+  - image: /assets/uploads/evil-rat-22.jpg
+  - image: /assets/uploads/evil-rat-23.jpg
+  - image: /assets/uploads/evil-rat-24.jpg
+  - image: /assets/uploads/evil-rat-25.jpg
+  - image: /assets/uploads/evil-rat-26.jpg
 ---
 *EVIL RAT / LIVE ART / EVIL ART / LIVE RAT*
 Anders Dickson, Ian Miyamura, and Olivia Reavey

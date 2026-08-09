@@ -30,22 +30,17 @@ collections:
       - { label: "Opening", name: "opening", widget: "string", required: false }
       - { label: "Contact", name: "contact", widget: "text", required: false }
       - { label: "Flyer Image", name: "flyer", widget: "image", required: false }
+      - label: "Images"
+        name: "images"
+        widget: "list"
+        required: false
+        label_singular: "Image"
+        summary: "{{fields.caption}}"
+        hint: "Add the images for this exhibition. Drag to reorder — this is the order they appear in the scroll."
+        fields:
+          - { label: "Image", name: "image", widget: "image" }
+          - { label: "Caption", name: "caption", widget: "text", required: false }
       - { label: "Text (essay)", name: "body", widget: "markdown", required: false }
-
-  - name: "images"
-    label: "Images"
-    folder: "_images"
-    create: true
-    slug: "{{slug}}"
-    extension: "md"
-    fields:
-      - { label: "Exhibition", name: "exhibition", widget: "relation", collection: "exhibitions", value_field: "slug", search_fields: ["title", "slug"], display_fields: ["title"] }
-      - { label: "Title", name: "title", widget: "string", required: false }
-      - { label: "Order", name: "order", widget: "number", value_type: "int", required: false, hint: "Lower numbers appear first in this exhibition's image scroll." }
-      - { label: "Date", name: "date", widget: "datetime", required: false }
-      - { label: "Image", name: "image", widget: "image" }
-      - { label: "Caption", name: "caption", widget: "text", required: false }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
 
   - name: "pages"
     label: "Pages"

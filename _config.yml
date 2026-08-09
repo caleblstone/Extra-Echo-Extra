@@ -17,12 +17,11 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# Exhibitions and images are data-only collections (output: false).
-# Each exhibition's pages are rendered by the shim files under /exhibitions/<slug>/.
+# Exhibitions are a data-only collection (output: false). Each exhibition holds
+# its own images (in front matter), and its pages are rendered by the shim files
+# under /exhibitions/<slug>/.
 collections:
   exhibitions:
-    output: false
-  images:
     output: false
 
 exclude:
