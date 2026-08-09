@@ -12,9 +12,7 @@ contact: >-
   To visit us on the Upper West Side or to get in touch, please email
   echo.extra.echo @ gmail.com
 
-  <p>
-
-  <a href="https://docs.google.com/document/d/1MuY-EeUgPBq8XXFSbGWHEYHzUs4KFjvgspdt9D7F2lM/edit?usp=sharing">Checklist</a> </p>
+  <br> <a href="https://docs.google.com/document/d/1MuY-EeUgPBq8XXFSbGWHEYHzUs4KFjvgspdt9D7F2lM/edit?usp=sharing">Checklist</a>
 flyer: /poster.jpg
 images:
   - image: /assets/uploads/evil-rat-1.jpg
