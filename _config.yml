@@ -9,8 +9,6 @@ author:
   name: Echo Extra Echo
   email: echo.extra.echo@gmail.com
 
-permalink: /:collection/:slug/
-
 markdown: kramdown
 kramdown:
   hard_wrap: true
@@ -19,25 +17,13 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+# Exhibitions and images are data-only collections (output: false).
+# Each exhibition's pages are rendered by the shim files under /exhibitions/<slug>/.
 collections:
+  exhibitions:
+    output: false
   images:
-    output: true
-    permalink: /images/:slug/
-  texts:
-    output: true
-    permalink: /text/:slug/
-
-defaults:
-  - scope:
-      path: ""
-      type: images
-    values:
-      layout: image
-  - scope:
-      path: ""
-      type: texts
-    values:
-      layout: text
+    output: false
 
 exclude:
   - Gemfile
@@ -45,3 +31,4 @@ exclude:
   - netlify.toml
   - node_modules
   - vendor
+  - _to_delete

@@ -1,0 +1,7 @@
+---
+layout: default
+---
+{% assign ex = site.exhibitions | where: "slug", page.exhibition_slug | first %}
+{% if ex.flyer %}
+<img class="flyer" src="{{ ex.flyer | relative_url }}" alt="{{ ex.title }} flyer">
+{% endif %}

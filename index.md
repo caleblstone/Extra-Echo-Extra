@@ -1,8 +1,9 @@
 ---
 layout: default
-title: About
-permalink: /about/
+title: ""
+permalink: /
 body_class: about-page
+exhibition_list: true
 ---
 
 ECHO EXTRA ECHO is a project organized by Hyunjee Nicole Kim and Joseph Issac Cohen, based in New York.

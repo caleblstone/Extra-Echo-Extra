@@ -1,0 +1,9 @@
+---
+layout: default
+---
+{% assign ex = site.exhibitions | where: "slug", page.exhibition_slug | first %}
+<article class="text-post">
+  <div class="text-body">
+    {{ ex.content | markdownify }}
+  </div>
+</article>

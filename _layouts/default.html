@@ -19,37 +19,45 @@
         <span class="extras" aria-hidden="true"></span>
         <span class="echo echo-right">Echo</span>
       </a>
+
+      {% if page.exhibition_slug %}
+      {% assign ex = site.exhibitions | where: "slug", page.exhibition_slug | first %}
       <nav class="site-menu">
         <ul>
-          <li><a href="{{ '/images/' | relative_url }}">Images</a></li>
-          <li><a href="{{ '/text/' | relative_url }}">Text</a></li>
-          <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+          <li><a href="{{ '/exhibitions/' | append: page.exhibition_slug | append: '/images/' | relative_url }}">Images</a></li>
+          <li><a href="{{ '/exhibitions/' | append: page.exhibition_slug | append: '/text/' | relative_url }}">Text</a></li>
         </ul>
       </nav>
 
-      {% if page.left_text %}
-      {% assign sorted_texts = site.texts | sort: "date" | reverse %}
-      {% for t in sorted_texts %}
-      <div class="left-text-content">{{ t.content }}</div>
-      {% endfor %}
-      {% elsif page.show %}
       <section class="current-show">
-        {% if page.show.presents or page.show.title or page.show.artists %}
+        {% if ex.presents or ex.title or ex.artists %}
         <p>
-          {% if page.show.presents %}{{ page.show.presents }}<br>{% endif %}
-          {% if page.show.title %}<span class="show-title">{{ page.show.title }}</span>{% if page.show.artists %}<br>{% endif %}{% endif %}
-          {% if page.show.artists %}{{ page.show.artists }}{% endif %}
+          {% if ex.presents %}{{ ex.presents }}<br>{% endif %}
+          {% if ex.title %}<span class="show-title">{{ ex.title }}</span>{% if ex.artists %}<br>{% endif %}{% endif %}
+          {% if ex.artists %}{{ ex.artists }}{% endif %}
         </p>
         {% endif %}
-        {% if page.show.dates or page.show.hours or page.show.opening %}
+        {% if ex.dates or ex.hours or ex.opening %}
         <p>
-          {% if page.show.dates %}{{ page.show.dates }}{% if page.show.hours or page.show.opening %}<br>{% endif %}{% endif %}
-          {% if page.show.hours %}{{ page.show.hours }}{% if page.show.opening %}<br>{% endif %}{% endif %}
-          {% if page.show.opening %}{{ page.show.opening }}{% endif %}
+          {% if ex.dates %}{{ ex.dates }}{% if ex.hours or ex.opening %}<br>{% endif %}{% endif %}
+          {% if ex.hours %}{{ ex.hours }}{% if ex.opening %}<br>{% endif %}{% endif %}
+          {% if ex.opening %}{{ ex.opening }}{% endif %}
         </p>
         {% endif %}
-        {% if page.show.contact %}<p>{{ page.show.contact | markdownify | remove: '<p>' | remove: '</p>' }}</p>{% endif %}
+        {% if ex.contact %}<p>{{ ex.contact | markdownify | remove: '<p>' | remove: '</p>' }}</p>{% endif %}
       </section>
+
+      {% elsif page.exhibition_list %}
+      <nav class="exhibition-list">
+        {% assign exhibitions = site.exhibitions | sort: "order" %}
+        {% for item in exhibitions %}
+        <a class="exhibition-entry" href="{{ '/exhibitions/' | append: item.slug | append: '/' | relative_url }}">
+          <span class="exhibition-title">{{ item.title }}</span>
+          {% if item.artists %}<span class="exhibition-artists">{{ item.artists }}</span>{% endif %}
+          {% if item.dates %}<span class="exhibition-dates">{{ item.dates }}</span>{% endif %}
+        </a>
+        {% endfor %}
+      </nav>
       {% endif %}
     </header>
 

@@ -9,6 +9,29 @@ site_url: https://echo-extra-echo.netlify.app
 display_url: https://echo-extra-echo.netlify.app
 
 collections:
+  - name: "exhibitions"
+    label: "Exhibitions"
+    label_singular: "Exhibition"
+    folder: "_exhibitions"
+    create: true
+    identifier_field: "slug"
+    slug: "{{slug}}"
+    extension: "md"
+    summary: "{{title}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string", hint: "URL id, e.g. evil-rat. Lowercase, hyphens, no spaces. Must match the file name." }
+      - { label: "Order", name: "order", widget: "number", value_type: "int", hint: "Lower numbers appear first in the exhibitions list." }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Presents Line", name: "presents", widget: "string", required: false, default: "Echo Extra Echo presents" }
+      - { label: "Artists", name: "artists", widget: "string", required: false }
+      - { label: "Dates", name: "dates", widget: "string", required: false }
+      - { label: "Hours", name: "hours", widget: "string", required: false }
+      - { label: "Opening", name: "opening", widget: "string", required: false }
+      - { label: "Contact", name: "contact", widget: "text", required: false }
+      - { label: "Flyer Image", name: "flyer", widget: "image", required: false }
+      - { label: "Text (essay)", name: "body", widget: "markdown", required: false }
+
   - name: "images"
     label: "Images"
     folder: "_images"
@@ -16,53 +39,24 @@ collections:
     slug: "{{slug}}"
     extension: "md"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Order", name: "order", widget: "number", required: false, hint: "Lower numbers appear first." }
-      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Exhibition", name: "exhibition", widget: "relation", collection: "exhibitions", value_field: "slug", search_fields: ["title", "slug"], display_fields: ["title"] }
+      - { label: "Title", name: "title", widget: "string", required: false }
+      - { label: "Order", name: "order", widget: "number", value_type: "int", required: false, hint: "Lower numbers appear first in this exhibition's image scroll." }
+      - { label: "Date", name: "date", widget: "datetime", required: false }
       - { label: "Image", name: "image", widget: "image" }
       - { label: "Caption", name: "caption", widget: "text", required: false }
       - { label: "Body", name: "body", widget: "markdown", required: false }
 
-  - name: "texts"
-    label: "Text"
-    folder: "_texts"
-    create: true
-    slug: "{{slug}}"
-    extension: "md"
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Author", name: "author", widget: "string", required: false }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
-
   - name: "pages"
     label: "Pages"
     files:
-      - label: "Home (current show)"
+      - label: "Home / About"
         name: "home"
-        file: "index.html"
+        file: "index.md"
         fields:
           - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/" }
           - { label: "Page Title", name: "title", widget: "hidden", default: "" }
-          - { label: "Flyer Image", name: "flyer", widget: "image" }
-          - label: "Current Show"
-            name: "show"
-            widget: "object"
-            fields:
-              - { label: "Presents Line", name: "presents", widget: "string", required: false, default: "Echo Extra Echo presents" }
-              - { label: "Show Title", name: "title", widget: "string" }
-              - { label: "Artists", name: "artists", widget: "string" }
-              - { label: "Dates", name: "dates", widget: "string" }
-              - { label: "Hours", name: "hours", widget: "string", required: false }
-              - { label: "Opening", name: "opening", widget: "string", required: false }
-              - { label: "Contact", name: "contact", widget: "text", required: false }
-          - { label: "Body", name: "body", widget: "hidden", default: '<img class="flyer" src="{{ page.flyer | relative_url }}" alt="{{ page.show.title }} flyer">' }
-      - label: "About"
-        name: "about"
-        file: "about.md"
-        fields:
-          - { label: "Title", name: "title", widget: "hidden", default: "About" }
-          - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
-          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/about/" }
           - { label: "Body Class", name: "body_class", widget: "hidden", default: "about-page" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Show exhibition list", name: "exhibition_list", widget: "hidden", default: true }
+          - { label: "About text", name: "body", widget: "markdown" }
