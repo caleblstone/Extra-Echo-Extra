@@ -13,9 +13,6 @@ contact: >
   echo.extra.echo @ gmail.com
 
 
-  Checklist (TK)
-
-
   <br> <a href="">Checklist (TK)</a>
 flyer: /assets/uploads/crash-1996-opening-credits-animation-still03.jpg
 ---
