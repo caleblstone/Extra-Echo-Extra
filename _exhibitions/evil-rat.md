@@ -1,14 +1,15 @@
 ---
-title: "EVIL RAT / LIVE ART / EVIL ART / LIVE RAT"
+title: EVIL RAT / LIVE ART / EVIL ART / LIVE RAT
 slug: evil-rat
-order: 1
+order: 2
 date: 2026-05-16T00:00:00.000-04:00
-presents: "Echo Extra Echo presents"
-artists: "Anders Dickson, Ian Miyamura, and Olivia Reavey"
-dates: "May 16–June 14, 2026"
-hours: "1–6pm on Saturdays & Sundays"
-opening: "Opening Saturday, May 16, 1pm"
-contact: "To visit us on the Upper West Side or to get in touch, please email echo.extra.echo @ gmail.com"
+presents: Echo Extra Echo presents
+artists: Anders Dickson, Ian Miyamura, and Olivia Reavey
+dates: May 16–June 14, 2026
+hours: 1–6pm on Saturdays & Sundays
+opening: Opening Saturday, May 16, 1pm
+contact: To visit us on the Upper West Side or to get in touch, please email
+  echo.extra.echo @ gmail.com
 flyer: /poster.jpg
 images:
   - image: /assets/uploads/evil-rat-1.jpg
