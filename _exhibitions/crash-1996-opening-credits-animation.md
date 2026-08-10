@@ -9,8 +9,10 @@ dates: August 16–30, 2026
 hours: On view through street level windows sunset to sunrise every night
 opening: Opening Sunday, August 16, 7pm
 contact: >-
-  To visit us on the Upper West Side or to get in touch, please email
-  echo.extra.echo @ gmail.com
+  35 West 92nd St, New York, New York 10025
+
+
+  To visit us on the Upper West Side or to get in touch, please email echo.extra.echo @ gmail.com
 
 
   <br> <a href="">Checklist (TK)</a>
