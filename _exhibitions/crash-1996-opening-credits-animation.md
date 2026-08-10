@@ -8,12 +8,9 @@ artists: Collin Leitch
 dates: August 16–30, 2026
 hours: On view through street level windows sunset to sunrise every night
 opening: Opening Sunday, August 16, 7pm
-contact: >
+contact: >-
   To visit us on the Upper West Side or to get in touch, please email
   echo.extra.echo @ gmail.com
-
-
-  Checklist (TK)
 
 
   <br> <a href="">Checklist (TK)</a>
