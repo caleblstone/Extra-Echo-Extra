@@ -41,13 +41,6 @@ images:
   - image: /assets/uploads/evil-rat-25.jpg
   - image: /assets/uploads/evil-rat-26.jpg
 ---
-*EVIL RAT / LIVE ART / EVIL ART / LIVE RAT*
-Anders Dickson, Ian Miyamura, and Olivia Reavey
-May 16–June 14, 2026
-New York, New York
-
-
-
 In 2026 it is said the rat supremacy in New York has ended. Poison has worked. Birth control has worked. Is the sign of fewer rats a sign of prosperity? A sign of an anesthetized environment, a cleaner society, a richer civilization—one without the melodrama of vermin sociality? 
 
 Does the rat need to be summoned back? Does art need to be live? Does art need to be evil? Does the rat need to be evil? Does the evil rat live an evil life? Does art live as an evil rat? 
