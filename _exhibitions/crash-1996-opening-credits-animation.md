@@ -9,14 +9,8 @@ dates: August 16–30, 2026
 hours: 35 West 92nd St, New York, New York 10025 <br> On view through street
   level windows sunset to sunrise every night
 opening: Opening Sunday, August 16, 7pm
-contact: >-
-  To visit us on the Upper West Side or to get in touch, please email
+contact: To visit us on the Upper West Side or to get in touch, please email
   echo.extra.echo @ gmail.com
-
-
-  <br> <br>
-
-  <a href="">Checklist (TK)</a>
 flyer: /assets/uploads/crash-1996-opening-credits-animation-still03.jpg
 ---
 The films of David Cronenberg are usually among the first young people watch that produce the feeling of discovery, of having seen something strange and novel. They are often watched by a group of friends on a couch, on a secondhand TV, in a rented home. I have watched many films with my friends in this manner and continue to do so to this day. Most of the people I know maintain some level of significant engagement with cinema, either in a professional capacity or as an enduring passion. If you are committed to some interest to the point of fixation, and can convey your enthusiasm for it in a comprehensive and meaningful way, no matter what it is, with some exceptions, people will generally view this as a positive quality. If there is an activity or practice you have pursued for a long time, there is a good chance you will continue it into the future for at least as long. I consider myself a very lucky person. Man, I have lived such a good life. 
