@@ -7,7 +7,7 @@ presents: Echo Extra Echo presents
 artists: Collin Leitch
 dates: August 16–30, 2026
 hours: New York, New York
-opening: Opening Sunday, August 16, 7pm
+opening: ""
 contact: To visit us on the Upper West Side or to get in touch, please email
   echo.extra.echo @ gmail.com
 flyer: /assets/uploads/crash-1996-opening-credits-animation-still03.jpg
