@@ -1,7 +1,7 @@
 ---
 title: EVIL RAT / LIVE ART / EVIL ART / LIVE RAT
 slug: evil-rat
-order: 2
+order: 3
 date: 2026-05-16T00:00:00.000-04:00
 presents: Echo Extra Echo presents
 artists: Anders Dickson, Ian Miyamura, and Olivia Reavey
