@@ -1,5 +1,5 @@
 ---
-title: Raft
+title: raft
 slug: raft
 order: 1
 date: 2026-10-04T09:43:00.000-04:00
