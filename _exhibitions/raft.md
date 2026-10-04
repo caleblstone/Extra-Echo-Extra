@@ -8,4 +8,6 @@ artists: Ann Messner
 dates: October 24–November 22, 2026
 hours: By appointment
 opening: October 24, 1–6pm
+flyer: /assets/uploads/img_2173.jpeg
+images: []
 ---
