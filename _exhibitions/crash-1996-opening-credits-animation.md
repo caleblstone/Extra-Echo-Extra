@@ -6,8 +6,7 @@ date: 2026-08-09T14:46:00.000-04:00
 presents: Echo Extra Echo presents
 artists: Collin Leitch
 dates: August 16–30, 2026
-hours: 35 West 92nd St, New York, New York 10025 <br> On view through street
-  level windows sunset to sunrise every night
+hours: New York, New York
 opening: Opening Sunday, August 16, 7pm
 contact: To visit us on the Upper West Side or to get in touch, please email
   echo.extra.echo @ gmail.com
