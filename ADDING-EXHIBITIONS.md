@@ -1,35 +1,29 @@
 # Adding an exhibition
 
-The site is built around one collection of exhibitions. Each exhibition has a
-landing page (flyer + details), an Images page, and a Text page. Everything for
-a show — its details, its images, and its text — lives in that one exhibition
-entry, so images can never end up on the wrong show.
+Everything happens in the CMS. You never touch code or folders.
 
-## 1. Create the exhibition entry (in the CMS)
+1. Open Decap CMS (the `/admin/` page on the site) and choose
+   **Exhibitions → New Exhibition**.
+2. Fill in the fields:
+   - **Title** — the show's title.
+   - **Slug** — a short URL id, lowercase with hyphens (e.g. `spring-2027`).
+     This becomes the show's web address; just leave the suggested value or
+     type a clean one.
+   - **Order** — lower numbers appear higher in the list on the home page.
+   - **Date, Presents line, Artists, Dates, Hours, Opening, Contact, Flyer** —
+     as needed.
+   - **Images** — add each image, with an optional caption. Drag to reorder;
+     that is the order they appear in the show's image scroll.
+   - **Text (essay)** — the writing shown on the show's Text page.
+3. Publish.
 
-In Decap CMS: **Exhibitions → New Exhibition**. Fill in:
+That's it. When the site rebuilds, the new exhibition automatically gets its
+own landing page (flyer + details), Images page, and Text page, and it appears
+in the list on the home page. No files to create, nothing to copy.
 
-- **Slug** — a short URL id, lowercase with hyphens, e.g. `spring-2027`.
-  This must match the folder name in step 2.
-- **Order** — lower numbers appear first in the list on the home page.
-- **Title, Date, Artists, Dates, Hours, Opening, Contact, Flyer** — as needed.
-- **Images** — add each image here, with an optional caption. Drag to reorder;
-  that is the order they appear in the exhibition's scroll.
-- **Text (essay)** — the writing shown on the exhibition's Text page.
+---
 
-(By hand: copy `_exhibitions/evil-rat.md` to `_exhibitions/<slug>.md` and edit.)
-
-## 2. Create the exhibition's pages
-
-Duplicate the folder `exhibitions/evil-rat/` and rename it to your slug, e.g.
-`exhibitions/spring-2027/`. Inside it are three files:
-
-- `index.html`
-- `images/index.html`
-- `text/index.html`
-
-In all three, change the line `exhibition_slug: evil-rat` to your slug
-(`exhibition_slug: spring-2027`). Nothing else needs to change.
-
-That's it — the new exhibition appears in the list on the home page, with its
-own flyer, image scroll, and text.
+*For developers:* the per-exhibition pages are generated at build time by
+`_plugins/exhibition_pages.rb`, which creates `/exhibitions/<slug>/`,
+`/exhibitions/<slug>/images/`, and `/exhibitions/<slug>/text/` for every entry
+in the `_exhibitions` collection. There is nothing to maintain per show.
