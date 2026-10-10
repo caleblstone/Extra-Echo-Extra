@@ -15,6 +15,6 @@ Echo Extra Echo is pleased to announce *raft*, an exhibition featuring work by t
 
 An opening reception will be held on Saturday, October 24, at 1–6pm. Jeremy Johnston and Nina Felshin will participate in a discussion with the artist at the gallery on Saturday, November 7, at 3pm.
 
-Viewings are by appointment only, though the work can be seen through the windows on the ground-floor level of the apartment building at all hours. The gallery address is 35 West 92nd St, #1EE, New York, New York 10025. To access the unit through the lobby, please provide your name to the front desk and say that you are visiting Coco in apartment 1EE. Then go through the lobby and find the apartment to your left, up the stairs. To access the apartment from street level, please use the door to the left of the lobby entrance (see attached image).
+Viewings are by appointment only, though the work can be seen through the windows on the ground-floor level of the apartment building at all hours. 
 
-Email us at echo.extra.echo@gmail.com or text Coco at (610) 507-9983 or Joseph at (415) 828-4663 to RSVP for the November 7 program or to schedule an appointment to view *raft* another time.
+Email us at [echo.extra.echo@gmail.com](echo.extra.echo@gmail.com) or text Coco at (610) 507-9983 or Joseph at (415) 828-4663 to RSVP for the November 7 program or to schedule an appointment to view *raft* another time.
