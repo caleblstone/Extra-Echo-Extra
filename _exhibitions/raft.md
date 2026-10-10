@@ -6,7 +6,7 @@ date: 2026-10-09T22:22:00.000-04:00
 presents: Echo Extra Echo presents
 artists: Ann Messner
 dates: October 24–November 22, 2026
-hours: By appointment
+hours: Viewing by appointment only
 opening: "Opening: October 24, 1–6pm"
 flyer: /assets/uploads/img_2173.jpeg
 images: []
