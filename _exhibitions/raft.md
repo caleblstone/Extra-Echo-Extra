@@ -17,41 +17,13 @@ Messner began *raft* in 2014 at her studio in Williamsburg, where she had worked
 
 The artist writes:
 
-*raft* is a provisional situation. It is the fallback when the bridge has not yet been built.
-
-*raft* is the placeholder, when conditions demand, when the destination remains indecipherable 
-
-and one is in the gap, the interim, between.
-
-
-
-*raft* struggles to find balance. It is a dislocated harbinger, a canary in the mine. *raft* interrupts an
-
-imminent collapse, secures a stay, offers the space between to locate one’s bearings. The
-
-condition remains urgent.
-
-
-
-One embarks on the journey not because one chooses, rather because the current conditions
-
-insisted—one was already on that raft—it was involuntarily slipped beneath any sense of
-
-stability one might have imagined to have had. To recognize this is to begin to come to terms
-
-with the fact that a breach has occurred, the situation is untenable, there is an urgent need for
-
-repair.
-
-
-
-*raft* is a surrogate, an autonomic proxy. Ground gives way to sway, to the give and take, shape-
-
-shifting echo from within. *raft* constitutes a duration, rather than an interruption, offers a stay, a
-
-space of holding, a reprieve. *raft* extends a condition of reflection—as only mirrors can do—
-
-transmitting the circularity of repair.
+> *raft* is a provisional situation. It is the fallback when the bridge has not yet been built. *raft* is the placeholder, when conditions demand, when the destination remains indecipherable and one is in the gap, the interim, between.
+>
+> *raft* struggles to find balance. It is a dislocated harbinger, a canary in the mine. *raft* interrupts an imminent collapse, secures a stay, offers the space between to locate one’s bearings. The condition remains urgent.
+>
+> One embarks on the journey not because one chooses, rather because the current conditions insisted—one was already on that raft—it was involuntarily slipped beneath any sense of stability one might have imagined to have had. To recognize this is to begin to come to terms with the fact that a breach has occurred, the situation is untenable, there is an urgent need for repair.
+>
+>  *raft* is a surrogate, an autonomic proxy. Ground gives way to sway, to the give and take, shapeshifting echo from within. *raft* constitutes a duration, rather than an interruption, offers a stay, a space of holding, a reprieve. *raft* extends a condition of reflection—as only mirrors can do–transmitting the circularity of repair.
 
 An opening reception will be held on Saturday, October 24, at 1–6pm. Jeremy Johnston and Nina Felshin will participate in a discussion with the artist at the gallery on Saturday, November 7, at 3pm.
 
