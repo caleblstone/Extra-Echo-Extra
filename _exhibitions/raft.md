@@ -17,7 +17,9 @@ Messner began *raft* in 2014 at her studio in Williamsburg, where she had worked
 
 The artist writes:
 
-> *raft* is a provisional situation. It is the fallback when the bridge has not yet been built. *raft* is the placeholder, when conditions demand, when the destination remains indecipherable and one is in the gap, the interim, between.
+> *raft* is a provisional situation. It is the fallback when the bridge has not yet been built. 
+>
+> *raft* is the placeholder, when conditions demand, when the destination remains indecipherable and one is in the gap, the interim, between.
 >
 > *raft* struggles to find balance. It is a dislocated harbinger, a canary in the mine. *raft* interrupts an imminent collapse, secures a stay, offers the space between to locate one’s bearings. The condition remains urgent.
 >
