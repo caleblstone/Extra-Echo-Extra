@@ -8,10 +8,11 @@ artists: Ann Messner
 dates: October 24–November 22, 2026
 hours: Viewing by appointment only
 opening: "Opening: October 24, 1–6pm"
+contact: ""
 flyer: /assets/uploads/img_2173.jpeg
 images: []
 ---
-[Artist Text](https://docs.google.com/document/d/1bunGm3GTn1S6kpsvNX_KD1PcaZH_JoKscY8qLxpMhPw/edit?usp=sharing)
+[Artist's Text](https://docs.google.com/document/d/1bunGm3GTn1S6kpsvNX_KD1PcaZH_JoKscY8qLxpMhPw/edit?usp=sharing)
 
 Echo Extra Echo is pleased to announce *raft*, an exhibition featuring work by the New York–based multidisciplinary artist Ann Messner, on view from October 24 through November 22. This presentation debuts *raft* (2014/2026), a large-scale sculptural installation comprising an array of materials—a ladder, a music stand, a satellite dish, speakers, power strips, sheets of neoprene rubber, apple boxes, among other items—found in the urban environment and in the artist’s studio, which indexes and reveals the seemingly prosaic gaps that appear in our surrounding spaces. The objects in *raft* are dismantled, punctured, exploded, or left whole, and then joined and reassembled by Messner in such a way that conveys the artist’s longstanding consideration of such themes as impermanence, personal experience, and the decision to act.
 
