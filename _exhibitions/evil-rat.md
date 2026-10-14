@@ -6,13 +6,10 @@ date: 2026-05-16T00:00:00.000-04:00
 presents: Echo Extra Echo presents
 artists: Anders Dickson, Ian Miyamura, and Olivia Reavey
 dates: May 16–June 14, 2026
-hours: 1–6pm on Saturdays & Sundays
+hours: ""
 opening: ""
-contact: >-
-  To visit us on the Upper West Side or to get in touch, please email
-  echo.extra.echo @ gmail.com
-
-  <br> <a href="https://docs.google.com/document/d/1MuY-EeUgPBq8XXFSbGWHEYHzUs4KFjvgspdt9D7F2lM/edit?usp=sharing">Checklist</a>
+contact: <br> <a
+  href="https://docs.google.com/document/d/1MuY-EeUgPBq8XXFSbGWHEYHzUs4KFjvgspdt9D7F2lM/edit?usp=sharing">Checklist</a>
 flyer: /poster.jpg
 images:
   - image: /assets/uploads/evil-rat-1.jpg
