@@ -9,6 +9,6 @@ ECHO EXTRA ECHO is a project organized by Hyunjee Nicole Kim and Joseph Issac Co
 
 To visit us on the Upper West Side or to get in touch, please email echo.extra.echo @ gmail.com
 
-Echo Extra Echo stands in solidarity with the people of Palestine and commits to the international call for Boycott, Divestment, and Sanctions (BDS), as well as the Palestinian Campaign for the Academic and Cultural Boycott of Israel (PACBI).
+Echo Extra Echo stands in solidarity with the people of Palestine and commits to the international call for Boycott, Divestment, and Sanctions ([BDS](https://bdsmovement.net/what-bds)), as well as the Palestinian Campaign for the Academic and Cultural Boycott of Israel ([PACBI](https://bdsmovement.net/pacbi)).
 
 Web Design: Caleb Stone
