@@ -17,11 +17,11 @@ images:
   - image: /assets/uploads/am_raft1-7_joseph-cohen.jpg
   - image: /assets/uploads/am_raft1-22_joseph-cohen.jpg
   - image: /assets/uploads/am_raft1-17_joseph-cohen.jpg
+  - image: /assets/uploads/am_raft1-12_joseph-cohen.jpg
+  - image: /assets/uploads/am_raft1-30_joseph-cohen.jpg
   - image: /assets/uploads/am_raft1-25_joseph-cohen.jpg
   - image: /assets/uploads/am_raft1-27_joseph-cohen.jpg
-  - image: /assets/uploads/am_raft1-12_joseph-cohen.jpg
   - image: /assets/uploads/am_raft1-5_joseph-cohen.jpg
-  - image: /assets/uploads/am_raft1-30_joseph-cohen.jpg
   - image: /assets/uploads/am_raft1-1_joseph-cohen.jpg
 ---
 [Artist's Text](https://docs.google.com/document/d/1bunGm3GTn1S6kpsvNX_KD1PcaZH_JoKscY8qLxpMhPw/edit?usp=sharing)
